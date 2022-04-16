@@ -77,3 +77,21 @@ button{
     color: white;
 
 }
+@media only screen and (max-width: 480px){
+  body{
+    background-color:#FFBBFF;
+    text-align: center;
+  }
+  .quadrado{
+    text-align: center;
+    width: 50px;
+    background-color: MediumPurple;
+    display: inline-block;
+    padding: 20px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color: MediumPurple;
+    box-shadow: inset 0 0 0.3em black;
+  }
+}
